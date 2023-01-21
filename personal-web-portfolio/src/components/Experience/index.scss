@@ -1,0 +1,49 @@
+.exper{
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    font-size: 32px;
+}
+.experienceContainer{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   margin-right: 5%;
+   margin-left: 5%;
+    column-gap: 2rem;
+}
+.experience_list{
+    margin-top: 2%;
+    border-radius: 5%;
+    height: 300px;
+    width: 400px;
+    color: white;
+    outline: 0.5px solid skyblue;
+}
+.head_part{
+    margin: 5% 5% 0 5%;
+
+    display: flex;
+    column-gap: 2rem;
+    font-size: 16px;
+
+    .job_title{
+        margin-top: 2%;
+    }
+}
+.Next{
+    display: flex;
+    column-gap: 5rem;
+    margin-left: 17%;
+    font-size: 15px;
+}
+.Description{
+    margin: 10% 5% 5% 5%;
+    font-size: 14px;
+}
+.experience_list:hover {
+    outline: 1px solid yellow;
+}

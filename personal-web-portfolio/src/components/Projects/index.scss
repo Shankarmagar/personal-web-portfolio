@@ -1,0 +1,129 @@
+
+.bigger{
+    padding-top: 6%;
+    height: 3800px;
+    overflow-y: scroll;
+}
+.Project_title{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 39px;
+    font-weight: bolder;
+    }
+
+    .Project_Section{
+        margin-top: 2%;
+        display: flex;
+    }
+.ProjectPicture{
+    margin: 10%;
+    width: 450px;
+    height: 200px;
+box-shadow: 3px 3px 13px 0px white;}
+
+.Project_heading{
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.ProjectDescription{
+    display: block;
+    margin: 1%;
+}
+.Information{
+    color: white;
+    font-size: large;
+}
+.Project_heading_2{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Ok{
+    width: 25px;
+    height: 25px;
+}
+.lists{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    column-gap: 5%;
+
+}
+.Name_of_skill{
+    display: flex;
+    flex-flow: row;
+    column-gap: 3%;
+    .words{
+        color: white;
+        font-size: large;
+        width: 100px;
+    }
+}
+
+.Code {
+    display: block;
+    color: #ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: wrap;
+
+    &:hover {
+        background: #ffd700;
+        color: #333;
+    }
+}
+.horiz{
+    background-color: white;
+    height: 0.5px;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.certified{
+    margin: 2%;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+.list_Of_Certificate{
+    margin: 2%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+column-gap: 4%;
+
+}
+
+@media screen and (max-width: 700px) {
+    .Project_Section{
+        display: block;
+    }
+    .ProjectPicture{
+        margin: 20%;
+        width: 350px;
+        height: 200px;
+    }
+    .ProjectDescription{
+        margin: 4%;
+    }
+    .Code{
+        margin-top: 0;
+    }
+    .certified{
+        justify-content: center;
+    }
+    .horiz{
+        margin-top: 15%;
+    }
+}
